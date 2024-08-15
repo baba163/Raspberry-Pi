@@ -34,7 +34,7 @@ network:
         addresses: [192.168.xxx.yyy, 8.8.8.8, 8.8.4.4]
         # ↑ DNSサーバのIPアドレス（←はGoogleのDNSサーバー）
 ```
-   ※ インデントはタブではなくスペースで記述する. 
+※ インデントはタブではなくスペースで記述する. 
 
 ### 補足
 + Raspberry Pi OS (Raspbian) では, かつて /etc/network/interfaces で設定していた.
