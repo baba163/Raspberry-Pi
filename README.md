@@ -5,5 +5,5 @@
 
 ### 文書一覧
 1. OS の準備と更新
-   1-1. [Raspberry Pi OS (64-bit)](OS:RaspberryPiOS(64-bit).md)
-   1-2. [Ubuntu Server 24.04 LTS (64-bit)](OS:UbuntuServer(64-bit).md)
+   + [Raspberry Pi OS (64-bit)](OS:RaspberryPiOS(64-bit).md)
+   + [Ubuntu Server 24.04 LTS (64-bit)](OS:UbuntuServer(64-bit).md)
