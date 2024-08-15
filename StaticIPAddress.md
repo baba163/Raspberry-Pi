@@ -21,7 +21,7 @@
    $ sudo nano 01-rpi-net-config.yaml
    ```
 ```yaml
-# Raspberry pi で固定IPアドレスを設定するYAMLファイル
+# Raspberry Pi で固定IPアドレスを設定するYAMLファイル
 network:
   version: 2
   renderer: networkd
