@@ -32,7 +32,7 @@ network:
       gateway4: 192.168.xxx.yyy         # デフォルトゲートウェイ
       nameservers:
         addresses: [192.168.xxx.yyy, 8.8.8.8, 8.8.4.4]
-        # ↑ DNSサーバのIPアドレス（←はGoogleのDNSサーバー）
+        # ↑ DNSサーバのIPアドレス（8.8.8.8, 8.8.4.4 はGoogleのDNSサーバー）
 ```
 ※ インデントはタブではなくスペースで記述する. 
 
