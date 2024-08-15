@@ -1,4 +1,4 @@
-# Raspberry Pi の初期設定
+# Raspberry Pi の OS と初期設定
 ## OS : Ubuntu Server 24.04 LTS(64-bit)
 
 ### 準備したマシン
