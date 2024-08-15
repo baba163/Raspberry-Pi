@@ -9,19 +9,25 @@
 
 ### 今回実施した作業
 1. カレントディレクトリを移動
-  + cd /etc/netplan
+   ```
+   $ cd /etc/netplan
+   ```
 2. 初期設定のYAMLファイルを別名で保存
-  + sudo mv 50-cloud-init.yaml 50-cloud-init.yaml.org
-3. 自分用の設定ファイル（01-rpi-net-config.yaml）を設置
-  + sudo nano 01-rpi-net-config.yaml
+   ```
+   $ sudo mv 50-cloud-init.yaml 50-cloud-init.yaml.org
+   ```
+4. 自分用の設定ファイル（01-rpi-net-config.yaml）を設置
+   ```
+   $ sudo nano 01-rpi-net-config.yaml
+   ```
 ```yaml
-# Raspberry pi 3 で k8s を構築する環境のYAMLファイル
+# Raspberry pi 3 で固定IPアドレスを設定するYAMLファイル
 network:
   version: 2
   renderer: networkd
   ethernets:
     eth0:
-      dhcp4: no     # dhcpは使用しない
+      dhcp4: no     # DHCPは使用しない
       addresses: [192.168.xxx.xxx/24]   # 独自のネットワークIPを個別に設定
       gateway4: 192.168.xxx.yyy         # デフォルトゲートウェイ
       nameservers:
