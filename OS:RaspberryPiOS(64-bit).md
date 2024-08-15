@@ -8,7 +8,7 @@
 ### 準備した　OS
 + Raspberry Pi OS (64-bit)
 + ↑ 2024年08月現在での最新
-+ Raspberry Pi 3 以降では 64-bit の OS が利用可能.
++ Raspberry Pi 3 以降の CPU が 64-bit のマシンでは, 64-bit の OS が利用可能.
 
 ### OS の準備と更新
 1. sudo apt update            # 更新データの取得
